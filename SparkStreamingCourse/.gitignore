@@ -1,11 +1,11 @@
-*.class
-*.log
+/.metadata/
+
 # Environments
 *.env
-.venv
+*.venv
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
-SparkStreamingCourse/twitter.env
+
