@@ -1,7 +1,7 @@
-object LearningScala1 {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(132); 
+object LearningScala1 {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(124); 
   // VALUES are immutable constants. You can't change them once defined.
-  val hello: String = "Hola Amigo!";System.out.println("""hello  : String = """ + $show(hello ));$skip(27); 
-  println(hello + "Yowza");$skip(178); 
+  val hello: String = "Yo!";System.out.println("""hello  : String = """ + $show(hello ));$skip(28); 
+  println(hello + " Bueno");$skip(178); 
   
   // Notice how Scala defines things backwards from other languages - you declare the
   // name, then the type.
@@ -38,10 +38,10 @@ object LearningScala1 {;import org.scalaide.worksheet.runtime.library.WorksheetS
   // Substituting in variables:
   println(s"I can use the s prefix to use variables like $numberOne $truth $letterA");$skip(150); 
   // Substituting expressions (with curly brackets):
-  println(s"The s prefix isn't limited to variables; I can include any expression. Like ${1+2}");$skip(163); 
+  println(s"The s prefix isn't limited to variables; I can include any expression. Like ${1+2}");$skip(169); 
                                                  
   // Using regular expressions:
-  val theUltimateAnswer: String = "To life, the universe, and everything is 42.";System.out.println("""theUltimateAnswer  : String = """ + $show(theUltimateAnswer ));$skip(37); 
+  val theUltimateAnswer: String = "To life, the universe, and everything elses is 42.";System.out.println("""theUltimateAnswer  : String = """ + $show(theUltimateAnswer ));$skip(37); 
   val pattern = """.* ([\d]+).*""".r;System.out.println("""pattern  : scala.util.matching.Regex = """ + $show(pattern ));$skip(48); 
   val pattern(answerString) = theUltimateAnswer;System.out.println("""answerString  : String = """ + $show(answerString ));$skip(34); 
   val answer = answerString.toInt;System.out.println("""answer  : Int = """ + $show(answer ));$skip(18); 
