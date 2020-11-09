@@ -1,22 +1,22 @@
 object LearningScala1 {
   // VALUES are immutable constants. You can't change them once defined.
-  val hello: String = "Hola Amigo!"               //> hello  : String = Hola Amigo!
-  println(hello + " Bueno")                       //> Hola Amigo! Bueno
+  val hello: String = "Yo!"                       //> hello  : String = Yo!
+  println(hello + " Bueno")                       //> Yo! Bueno
   
   // Notice how Scala defines things backwards from other languages - you declare the
   // name, then the type.
   
   // VARIABLES are mutable
-  var helloThere: String = hello                  //> helloThere  : String = Hola Amigo!
+  var helloThere: String = hello                  //> helloThere  : String = Yo!
   helloThere = hello + " There!"
-  println(helloThere)                             //> Hola Amigo! There!
+  println(helloThere)                             //> Yo! There!
   
   
   // One key objective of functional programming is to use immutable objects as often as possible.
   // Try to use operations that transform immutable objects into a new immutable object.
   // For example, we could have done the same thing like this:
-  val immutableHelloThere = hello + "There!"      //> immutableHelloThere  : String = Hola Amigo!There!
-  println(immutableHelloThere)                    //> Hola Amigo!There!
+  val immutableHelloThere = hello + "There!"      //> immutableHelloThere  : String = Yo!There!
+  println(immutableHelloThere)                    //> Yo!There!
   
   // Some other types
   val numberOne : Int = 1                         //> numberOne  : Int = 1
@@ -46,9 +46,9 @@ object LearningScala1 {
                                                   //|  3
                                                  
   // Using regular expressions:
-  val theUltimateAnswer: String = "To life, the universe, and everything is 42."
-                                                  //> theUltimateAnswer  : String = To life, the universe, and everything is 42.
-                                                  //| 
+  val theUltimateAnswer: String = "To life, the universe, and everything elses is 42."
+                                                  //> theUltimateAnswer  : String = To life, the universe, and everything elses i
+                                                  //| s 42.
   val pattern = """.* ([\d]+).*""".r              //> pattern  : scala.util.matching.Regex = .* ([\d]+).*
   val pattern(answerString) = theUltimateAnswer   //> answerString  : String = 42
   val answer = answerString.toInt                 //> answer  : Int = 42
