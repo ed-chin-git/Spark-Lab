@@ -1,7 +1,7 @@
 object LearningScala1 {
   // VALUES are immutable constants. You can't change them once defined.
   val hello: String = "Yo!"                       //> hello  : String = Yo!
-  println(hello + " Bueno")                       //> Yo! Bueno
+  println(hello)                                  //> Yo!
   
   // Notice how Scala defines things backwards from other languages - you declare the
   // name, then the type.
@@ -40,12 +40,13 @@ object LearningScala1 {
   // Substituting in variables:
   println(s"I can use the s prefix to use variables like $numberOne $truth $letterA")
                                                   //> I can use the s prefix to use variables like 1 true a
+                                                  
   // Substituting expressions (with curly brackets):
   println(s"The s prefix isn't limited to variables; I can include any expression. Like ${1+2}")
                                                   //> The s prefix isn't limited to variables; I can include any expression. Like
                                                   //|  3
                                                  
-  // Using regular expressions:
+  // Using regular expressions: _________________________________________________________________________________________________________
   val theUltimateAnswer: String = "To life, the universe, and everything elses is 42."
                                                   //> theUltimateAnswer  : String = To life, the universe, and everything elses i
                                                   //| s 42.
@@ -54,7 +55,10 @@ object LearningScala1 {
   val answer = answerString.toInt                 //> answer  : Int = 42
   println(answer)                                 //> 42
   
-  // Dealing with booleans
+  
+  
+  
+  // Dealing with booleans _____________________________________________________________________
   val isGreater = 1 > 2                           //> isGreater  : Boolean = false
   val isLesser = 1 < 2                            //> isLesser  : Boolean = true
   val impossible = isGreater & isLesser           //> impossible  : Boolean = false
@@ -64,9 +68,14 @@ object LearningScala1 {
   val bestCaptain: String = "Picard"              //> bestCaptain  : String = Picard
   val isBest: Boolean = picard == bestCaptain     //> isBest  : Boolean = true
   
-  // EXERCISE
+  // EXERCISE ______________________________________________________________________________________________________
   // Write some code that takes the value of pi, doubles it, and then prints it within a string with
   // three decimal places of precision to the right.
   // Just write your code below here; any time you save the file it will automatically display the results!
   
+  val pi_doubled : Double = pi * 2                //> pi_doubled  : Double = 6.2831853
+  println(f"Pi doubled is equal to $pi_doubled%.3f" )
+                                                  //> Pi doubled is equal to 6.283
+
+
 }
