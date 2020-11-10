@@ -1,5 +1,5 @@
-object Fibo {
-  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+object Fibo {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(57); 
+  println("Welcome to the Scala worksheet")}
 }
 
 /*=================== fibonacci python function ========================================

@@ -1,4 +1,6 @@
-object LearningScala2 {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(200); 
+object LearningScala2 {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(257); 
+
+  //  https://data-flair.training/blogs/scala-tutorial/
   // _________________Flow control__________________________________________
   // __ If / else syntax
   if (1 > 3) println("Impossible!") else println("The world makes sense.");$skip(93); 
@@ -6,9 +8,9 @@ object LearningScala2 {;import org.scalaide.worksheet.runtime.library.WorksheetS
   	println("Impossible!")
   } else {
   	println("The world makes sense.")
-  };$skip(68); 
+  };$skip(101); 
   
-  // Matching - like switch in other languages:
+  // Matching - like switch/case in other languages (does not exist in python) :
   val number = 1;System.out.println("""number  : Int = """ + $show(number ));$skip(146); 
   number match {
   	case 1 => println("One")
