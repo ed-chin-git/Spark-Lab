@@ -11,7 +11,7 @@ object LearningScala2 {
   	println("The world makes sense.")
   }                                               //> The world makes sense.
   
-  // Matching - like switch in other languages:
+  // Matching - like switch/case in other languages (does not exist in python) :
   val number = 1                                  //> number  : Int = 1
   number match {
   	case 1 => println("One")
