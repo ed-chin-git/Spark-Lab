@@ -1,7 +1,7 @@
 object LearningScala1 {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(124); 
   // VALUES are immutable constants. You can't change them once defined.
-  val hello: String = "Yo!";System.out.println("""hello  : String = """ + $show(hello ));$skip(28); 
-  println(hello + " Bueno");$skip(178); 
+  val hello: String = "Yo!";System.out.println("""hello  : String = """ + $show(hello ));$skip(17); 
+  println(hello);$skip(178); 
   
   // Notice how Scala defines things backwards from other languages - you declare the
   // name, then the type.
@@ -36,18 +36,22 @@ object LearningScala1 {;import org.scalaide.worksheet.runtime.library.WorksheetS
   println(f"Zero padding on the left: $numberOne%05d");$skip(169); 
                                                   
   // Substituting in variables:
-  println(s"I can use the s prefix to use variables like $numberOne $truth $letterA");$skip(150); 
+  println(s"I can use the s prefix to use variables like $numberOne $truth $letterA");$skip(202); 
+                                                  
   // Substituting expressions (with curly brackets):
-  println(s"The s prefix isn't limited to variables; I can include any expression. Like ${1+2}");$skip(169); 
+  println(s"The s prefix isn't limited to variables; I can include any expression. Like ${1+2}");$skip(275); 
                                                  
-  // Using regular expressions:
+  // Using regular expressions: _________________________________________________________________________________________________________
   val theUltimateAnswer: String = "To life, the universe, and everything elses is 42.";System.out.println("""theUltimateAnswer  : String = """ + $show(theUltimateAnswer ));$skip(37); 
   val pattern = """.* ([\d]+).*""".r;System.out.println("""pattern  : scala.util.matching.Regex = """ + $show(pattern ));$skip(48); 
   val pattern(answerString) = theUltimateAnswer;System.out.println("""answerString  : String = """ + $show(answerString ));$skip(34); 
   val answer = answerString.toInt;System.out.println("""answer  : Int = """ + $show(answer ));$skip(18); 
-  println(answer);$skip(54); 
+  println(answer);$skip(133); 
   
-  // Dealing with booleans
+  
+  
+  
+  // Dealing with booleans _____________________________________________________________________
   val isGreater = 1 > 2;System.out.println("""isGreater  : Boolean = """ + $show(isGreater ));$skip(23); 
   val isLesser = 1 < 2;System.out.println("""isLesser  : Boolean = """ + $show(isLesser ));$skip(40); 
   val impossible = isGreater & isLesser;System.out.println("""impossible  : Boolean = """ + $show(impossible ));$skip(41); 
@@ -55,11 +59,15 @@ object LearningScala1 {;import org.scalaide.worksheet.runtime.library.WorksheetS
   
   val picard: String = "Picard";System.out.println("""picard  : String = """ + $show(picard ));$skip(37); 
   val bestCaptain: String = "Picard";System.out.println("""bestCaptain  : String = """ + $show(bestCaptain ));$skip(46); 
-  val isBest: Boolean = picard == bestCaptain;System.out.println("""isBest  : Boolean = """ + $show(isBest ))}
+  val isBest: Boolean = picard == bestCaptain;System.out.println("""isBest  : Boolean = """ + $show(isBest ));$skip(420); 
   
-  // EXERCISE
+  // EXERCISE ______________________________________________________________________________________________________
   // Write some code that takes the value of pi, doubles it, and then prints it within a string with
   // three decimal places of precision to the right.
   // Just write your code below here; any time you save the file it will automatically display the results!
   
+  val pi_doubled : Double = pi * 2;System.out.println("""pi_doubled  : Double = """ + $show(pi_doubled ));$skip(54); 
+  println(f"Pi doubled is equal to $pi_doubled%.3f" )}
+
+
 }
