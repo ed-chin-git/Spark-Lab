@@ -1,4 +1,6 @@
 object LearningScala2 {
+
+  //  https://data-flair.training/blogs/scala-tutorial/
   // _________________Flow control__________________________________________
   // __ If / else syntax
   if (1 > 3) println("Impossible!") else println("The world makes sense.")

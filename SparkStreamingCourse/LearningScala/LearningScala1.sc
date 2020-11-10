@@ -1,4 +1,7 @@
 object LearningScala1 {
+
+	//  https://data-flair.training/blogs/scala-tutorial/
+	
   // VALUES are immutable constants. You can't change them once defined.
   val hello: String = "Yo!"                       //> hello  : String = Yo!
   println(hello)                                  //> Yo!

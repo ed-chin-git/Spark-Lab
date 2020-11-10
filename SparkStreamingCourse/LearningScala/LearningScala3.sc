@@ -1,4 +1,7 @@
 object LearningScala3 {
+
+  //  https://data-flair.training/blogs/scala-tutorial/
+  
   // Functions
   
   // Format is def <function name>(parameter name: type...) : return type = { expression }
