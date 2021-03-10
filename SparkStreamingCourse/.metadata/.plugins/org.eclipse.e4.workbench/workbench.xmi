@@ -45,8 +45,7 @@
           <tags>persp.newWizSC:org.scalaide.worksheet.wizards.newWorksheet</tags>
           <tags>persp.newWizSC:org.scala-ide.play2.wizards.newTemplate</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_a9jRwSHeEeuy4oJl0aEJdQ" selectedElement="_N9F1sCHqEeuXUsHihwykzA" horizontal="true">
-            <children xsi:type="basic:PartStack" xmi:id="_a9jRwiHeEeuy4oJl0aEJdQ" elementId="explorer" visible="false" containerData="1632" selectedElement="_a9jRwyHeEeuy4oJl0aEJdQ">
-              <tags>Minimized</tags>
+            <children xsi:type="basic:PartStack" xmi:id="_a9jRwiHeEeuy4oJl0aEJdQ" elementId="explorer" containerData="1632" selectedElement="_a9jRwyHeEeuy4oJl0aEJdQ">
               <children xsi:type="advanced:Placeholder" xmi:id="_a9jRwyHeEeuy4oJl0aEJdQ" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_a9eZQCHeEeuy4oJl0aEJdQ"/>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_N9F1sCHqEeuXUsHihwykzA" containerData="8368" selectedElement="_r2EvACKXEeu02ZSte7eEwQ" horizontal="true">
@@ -99,7 +98,7 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_a9XrkCHeEeuy4oJl0aEJdQ" elementId="org.eclipse.ui.editorss" selectedElement="_a9XrkSHeEeuy4oJl0aEJdQ">
-      <children xsi:type="basic:PartStack" xmi:id="_a9XrkSHeEeuy4oJl0aEJdQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_bJF3YCQjEeuVn_DsNG8MQQ">
+      <children xsi:type="basic:PartStack" xmi:id="_a9XrkSHeEeuy4oJl0aEJdQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_a7oqMCQjEeuVn_DsNG8MQQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
@@ -113,14 +112,14 @@
           <tags>Editor</tags>
           <tags>scala.tools.eclipse.ScalaSourceFileEditor</tags>
           <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_bJF3YCQjEeuVn_DsNG8MQQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Utilities.scala" iconURI="platform:/plugin/org.scala-ide.sdt.core/icons/full/obj16/scu_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;scala.tools.eclipse.ScalaSourceFileEditor&quot; name=&quot;Utilities.scala&quot; partName=&quot;Utilities.scala&quot; title=&quot;Utilities.scala&quot; tooltip=&quot;TWstream/src/com/edgardochin/TWstream/Utilities.scala&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/TWstream/src/com/edgardochin/TWstream/Utilities.scala&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;495&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>scala.tools.eclipse.ScalaSourceFileEditor</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -270,7 +269,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ahPwQCHeEeuy4oJl0aEJdQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_dxGekCTrEeu-W-nZUke6Pg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Zo-rmCHeEeuy4oJl0aEJdQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_J8UEcG40EeuZU-jL4KhEgw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Zo-rmCHeEeuy4oJl0aEJdQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ahQXUCHeEeuy4oJl0aEJdQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -288,7 +287,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ahQ-YCHeEeuy4oJl0aEJdQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_dxMlMCTrEeu-W-nZUke6Pg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Zo9dliHeEeuy4oJl0aEJdQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_J8V5om40EeuZU-jL4KhEgw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Zo9dliHeEeuy4oJl0aEJdQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ahQ-YSHeEeuy4oJl0aEJdQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -328,8 +327,8 @@
         <tags>Draggable</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_ZoRg4yHeEeuy4oJl0aEJdQ" elementId="org.eclipse.ui.trim.vertical1" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Left">
-      <children xsi:type="menu:ToolControl" xmi:id="_WMORsCKXEeu02ZSte7eEwQ" elementId="explorer(IDEWindow).(org.scala-ide.sdt.core.perspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+    <trimBars xmi:id="_ZoRg4yHeEeuy4oJl0aEJdQ" elementId="org.eclipse.ui.trim.vertical1" contributorURI="platform:/plugin/org.eclipse.ui.workbench" toBeRendered="false" side="Left">
+      <children xsi:type="menu:ToolControl" xmi:id="_WMORsCKXEeu02ZSte7eEwQ" elementId="explorer(IDEWindow).(org.scala-ide.sdt.core.perspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
         <tags>Draggable</tags>
       </children>
@@ -2367,7 +2366,7 @@
   <addons xmi:id="_ZoRg8iHeEeuy4oJl0aEJdQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_ZoRg8yHeEeuy4oJl0aEJdQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_Zoaq0CHeEeuy4oJl0aEJdQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_cvLukSTrEeu-W-nZUke6Pg" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_JAk08G40EeuZU-jL4KhEgw" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_Zo2IoCHeEeuy4oJl0aEJdQ" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_Zo2IoSHeEeuy4oJl0aEJdQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
